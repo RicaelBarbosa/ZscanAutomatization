@@ -1,0 +1,12 @@
+{
+  "name": "ilaudo-automatizcao",
+  "version": "1.0.0",
+  "description": "automatizacao do ilaudo",
+  "main": "index.js",
+  "repository": "https://github.com/RicaelBarbosa/ZscanAutomatization.git",
+  "author": "Ricael Lopes",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "12.17.1"
+  }
+}
