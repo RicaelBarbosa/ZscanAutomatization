@@ -1,5 +1,7 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "campos": {
+    "campo1": "Exame realizado em aparelho de alta resolução sob efeito de anestesia.",
+    "campo2": "Esôfago: \n - Mucosa de aspecto normal em toda sua extensão.\n - Calibre e distensibilidade normais.\n - Motilidade normal. \n- TEG Situada ao nível do pinçamento diafragmático.\n Estômago:\n - Cardia fechado à retrovisão.\n- Mucosa de fundo de aspecto normal.\n- Mucosa de corpoalto/médio, pequena curvatura, com presença de cicatriz de úlcera.\n- Incisura angularis normal.\n- Mucosa de antro de aspecto normal.\n - Motilidade normal.\n- Lago mucoso claro.\n- Piloro centrado, pérvio.\n Duodeno:\n- Bulbo amplo, sem lesões.\n- Segunda porção normal.",
+    "campo3": "ÚLCERA GÁSTRICA CICATRIZADA (S1 DE SAKITA) - 2/36."
+  }
 }
