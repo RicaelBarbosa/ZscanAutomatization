@@ -7,6 +7,5 @@ describe('acessar-site', () => {
         cy.get('button[type="submit"]').click()
         cy.get('.nav > .btn').click()
         cy.get('input[placeholder="Digite o nome do paciente"').type('Rick')
-
     });
 });
