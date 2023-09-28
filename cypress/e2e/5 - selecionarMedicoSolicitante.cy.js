@@ -3,8 +3,8 @@ import exemple from "../fixtures/example.json";
 describe('inserir texto no laudo', () => {
     it('inserir texto no laudo', () => {
             cy.visit("https://editor-homologacao.ilaudo.com");
-            cy.get('input[type=email]').type('zscanrick@outlook.com')
-            cy.get('input[type=password]').type('123456')
+            cy.get('input[type=email]').type(usuarioSenha.dados.email)
+            cy.get('input[type=password]').type(usuarioSenha.dados.senha)
             cy.get('button[type="submit"]').click()
             cy.get('input[placeholder="Digite o nome do paciente"').type('Zscan')
             cy.wait(2000)

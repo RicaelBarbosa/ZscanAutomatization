@@ -1,8 +1,8 @@
 describe('selecionar paciente pelo nome', () => {
 it('selecionar paciente pelo nome', () => {
         cy.visit("https://editor-homologacao.ilaudo.com");
-        cy.get('input[type=email]').type('zscanrick@outlook.com')
-        cy.get('input[type=password]').type('123456')
+        cy.get('input[type=email]').type(usuarioSenha.dados.email)
+        cy.get('input[type=password]').type(usuarioSenha.dados.senha)
         cy.get('button[type="submit"]').click()
         cy.get('input[placeholder="Digite o nome do paciente"').type('Zscan')
         cy.wait(1500)
